@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:wght@400;900&display=swap');
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: rgba(220, 238, 245, 0.5);
+    color: grey;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://cdn.pixabay.com/photo/2018/01/14/12/45/sand-3081770_960_720.jpg");
+    background-size: cover;
+
+
+}
+
+h1{
+    display: inline;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 20px 0;
+    color: rgb(30, 95, 144);
+}
+
+.divClass{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    margin: 5px 0 20px 0;
+}
+
+
+img{
+    width: 400px;
+    display: block;
+    margin: 10px;
+}
+
+
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color: rgb(185, 199, 204);
+    padding: 50px;
+    border: solid 3px rgb(30, 95, 144);
+    
+
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}
+
